@@ -64,14 +64,14 @@ const ContactList = props => {
               onClick={() => props.add()}
               type="button"
               className="btn btn-primary text-center"
-             >Add
+              >Add
              
             </button>
           ) : (
             <button
               className="btn btn-danger"
               onClick={() => props.delete(val)}
-            > Delete
+              >Delete 
             </button>
           )}
         </div>
